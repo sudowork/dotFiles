@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Enable key repeat on OS X Lion and after
+defaults write -g ApplePressAndHoldEnabled -bool false
