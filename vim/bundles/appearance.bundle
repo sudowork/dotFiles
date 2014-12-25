@@ -1,0 +1,2 @@
+NeoBundle 'bling/vim-airline'
+NeoBundle 'altercation/vim-colors-solarized'

@@ -1,0 +1,3 @@
+NeoBundle 'editorconfig/editorconfig-vim'
+NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'tristen/vim-sparkup'

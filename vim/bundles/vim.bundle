@@ -1,0 +1,2 @@
+NeoBundle 'gavinbeatty/dragvisuals.vim'
+NeoBundle 'terryma/vim-multiple-cursors'
