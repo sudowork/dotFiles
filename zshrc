@@ -54,6 +54,8 @@ ZSH_THEME="kgao"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+export DISABLE_FZF_AUTO_COMPLETION="true"
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -68,6 +70,7 @@ plugins=(
   dotenv
   encode64
   fasd
+  fzf
   git
   marked2
   npm
