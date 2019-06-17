@@ -75,7 +75,6 @@ plugins=(
   marked2
   npm
   pip
-  ssh-agent
   terraform
   tig
   vi-mode
