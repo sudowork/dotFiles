@@ -55,6 +55,11 @@ else
 fi
 echo ""
 
+# fzf
+echo "Installing fzf"
+install_brew_package fzf
+echo ""
+
 # zsh
 echo "Checking zsh"
 install_brew_package zsh
@@ -84,6 +89,10 @@ if [ -d "$ZSH_CUSTOM" ]; then
     create_symlink "$DIR/oh-my-zsh/custom" "$ZSH_CUSTOM"
 fi
 echo ""
+
+# neobundle
+curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > /tmp/neobundle.sh
+sh /tmp/neobundle.sh
 
 # vim
 echo "Checking vim"
