@@ -32,7 +32,7 @@ function is_brew_installed() {
 
 function install_brew_package() {
     local package="$1"
-    if brew ls --version "$package" > /dev/null; then
+    if brew list "$package" > /dev/null; then
         echo "Package $package already installed"
     else
         echo "Installing package $package"
