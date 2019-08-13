@@ -43,3 +43,5 @@ function ptf() {
   echo "$cmd" | pbcopy
   echo "Copied command $cmd to clipboard"
 }
+
+alias mypy-fix="${QUIP}/bin/mypy clean && dd bash recompilepyi && ${QUIP}/bin/mypy"
