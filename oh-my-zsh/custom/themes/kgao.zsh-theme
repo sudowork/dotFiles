@@ -4,11 +4,13 @@ YELLOW=$fg[yellow]
 GREEN=$fg[green]
 WHITE=$fg[white]
 BLUE=$fg[blue]
+MAGENTA=$fg[magenta]
 RED_BOLD=$fg_bold[red]
 YELLOW_BOLD=$fg_bold[yellow]
 GREEN_BOLD=$fg_bold[green]
 WHITE_BOLD=$fg_bold[white]
 BLUE_BOLD=$fg_bold[blue]
+MAGENTA_BOLD=$fg_bold[magenta]
 RESET_COLOR=$reset_color
 
 # Format for git_prompt_info()
