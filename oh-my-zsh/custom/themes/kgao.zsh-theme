@@ -37,7 +37,12 @@ ZSH_THEME_GIT_PROMPT_SHA_BEFORE=" %{$WHITE%}[%{$YELLOW%}"
 ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$WHITE%}]"
 
 # Prompt format
+# Solarized Dark
+# PROMPT='
+# %{$GREEN%}%n@%m%{$WHITE%}:%{$YELLOW%}%~%u$(parse_git_dirty)$(git_prompt_ahead)%{$RESET_COLOR%}
+# %{$BLUE%}>%{$RESET_COLOR%} '
+# Night Owl
 PROMPT='
-%{$GREEN%}%n@%m%{$WHITE%}:%{$YELLOW%}%~%u$(parse_git_dirty)$(git_prompt_ahead)%{$RESET_COLOR%}
+%{$MAGENTA_BOLD%}%n@%m%{$RESET_COLOR%}%{$WHITE%}:%{$YELLOW%}%~%u$(parse_git_dirty)$(git_prompt_ahead)%{$RESET_COLOR%}
 %{$BLUE%}>%{$RESET_COLOR%} '
 RPROMPT='%{$GREEN%}$(git_current_branch)$(git_prompt_short_sha)$(git_prompt_status)%{$RESET_COLOR%}'
