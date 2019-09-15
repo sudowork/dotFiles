@@ -18,6 +18,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Install all bundles defined in ~/.vim/bundles/*.bundle
 for fpath in split(globpath(bundlespath, '*.bundle'), '\n')
+  if !has('nvim') && fpath =~ "nvim.bundle"
+    continue
+  endif
   exe 'runtime' eval("fnamemodify('" . fpath . "', ':t')")
 endfor
 
