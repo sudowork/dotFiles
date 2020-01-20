@@ -1,4 +1,5 @@
 NeoBundle 'briancollins/vim-jst'
+NeoBundle 'chrisbra/csv.vim'
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'digitaltoad/vim-jade.git'
 NeoBundle 'groenewege/vim-less.git'
