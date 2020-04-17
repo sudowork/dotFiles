@@ -67,7 +67,6 @@ plugins=(
   colorize
   docker
   docker-compose
-  dotenv
   encode64
   fasd
   fzf
