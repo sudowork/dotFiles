@@ -45,3 +45,10 @@ function ptf() {
 }
 
 alias mypy-fix="${QUIP}/bin/mypy clean && dd bash recompilepyi && ${QUIP}/bin/mypy"
+
+# Flow
+alias fl="flow"
+alias fb="flow branch"
+alias fc="flow create"
+alias fo="flow open"
+alias fcl="flow clean"
