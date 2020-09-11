@@ -1,4 +1,5 @@
 NeoBundle 'editorconfig/editorconfig-vim'
+NeoBundle 'puremourning/vimspector'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tristen/vim-sparkup'
