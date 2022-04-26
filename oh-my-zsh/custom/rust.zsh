@@ -1,1 +1,1 @@
-path=("$HOME/.cargo/bin" $path)
+[[ -d "$HOME/.cargo/bin" ]] && path=("$HOME/.cargo/bin" $path)
