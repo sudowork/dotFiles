@@ -35,7 +35,8 @@ LD_LIBRARY_PATH+=("$ANDROID_SDK/tools/lib")
 alias qeslint="$QUIP/node_modules/.bin/eslint --config=$QUIP/static/tools/eslint/eslintrc.yml --ignore-path=$QUIP/static/tools/eslint/eslintignore --rulesdir=$QUIP/static/tools/eslint/rules"
 
 alias cjs="checkjscompilation"
-alias tf="$HOME/repos/devops/terraform/aws/bin/tf"
+alias tf="$HOME/dev/devops/terraform/aws/bin/tf"
+alias tfauth="$HOME/dev/devops/terraform/aws/bin/tfauth"
 
 function ptf() {
   local cmd="bin/push-to-fork $@"
@@ -52,3 +53,8 @@ alias fb="flow branch"
 alias fc="flow create"
 alias fo="flow open"
 alias fcl="flow clean"
+
+#kubectl
+alias kubectl="aws-vault exec quip-devtools -- kubectl"
+alias kubens="aws-vault exec quip-devtools -- kubens"
+alias kubectx="aws-vault exec quip-devtools -- kubectx"
