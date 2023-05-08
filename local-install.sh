@@ -90,13 +90,13 @@ if [ -d "$ZSH_CUSTOM" ]; then
 fi
 echo ""
 
-# neobundle
-curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > /tmp/neobundle.sh
-sh /tmp/neobundle.sh
-
 # vim
 echo "Checking vim"
 install_brew_package vim
 create_symlink "$DIR/vim" "$HOME/.vim"
 create_symlink "$DIR/vimrc" "$HOME/.vimrc"
 echo ""
+
+# neobundle
+curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > /tmp/neobundle.sh
+sh /tmp/neobundle.sh
