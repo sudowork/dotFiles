@@ -1,3 +1,5 @@
+exit 0 # DISABLED
+
 if [ -f /Users/kgao/.ansible/env.sh ]; then
   function activate_ansible() {
     . /Users/kgao/.ansible/env.sh
